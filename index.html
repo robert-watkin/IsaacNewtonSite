@@ -1,50 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Newton</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>        
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </head>
+  <head>
+      <title>Newton</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Issac Newton</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse sticky-top navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav nav-pills">
-                <li class="nav-item active">
-                  <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">A Brief History</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Gravity</a>
-                </li>
-              </ul>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>        
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <nav class="navbar container sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Issac Newton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse sticky-top navbar-collapse" id="navbarSupportedContent">
+          <ul class="nav nav-pills">
+            <li class="nav-item active">
+              <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">A Brief History</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gravity</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+  
+      <div class="jumbotron history">
+        <h2 class="display-4"><u>A Brief History</u></h2>
+        <div class="row mt-sm-4 mt-md-0">
+          <div class="col-sm-12 col-md-8">
+            <p class="lead">Isaac Newton: Early Life and Education</p>
+            <p>
+              Isaac Newton was born on January 4, 1643, in Woolsthorpe, Lincolnshire, England. The son of a farmer who died three months before he was born, Newton spent most of his early years with his maternal grandmother after his mother remarried. His education was interrupted by a failed attempt to turn him into a farmer, and he attended the King’s School in Grantham before enrolling at the University of Cambridge’s Trinity College in 1661.
+
+Newton studied a classical curriculum at Cambridge, but he became fascinated by the works of modern philosophers such as René Descartes, even devoting a set of notes to his outside readings he titled “Quaestiones Quaedam Philosophicae” (“Certain Philosophical Questions”). When the Great Plague shuttered Cambridge in 1665, Newton returned home and began formulating his theories on calculus, light and color, his farm the setting for the supposed falling apple that inspired his work on gravity.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <img class="w-75" src="assets/newtonPortrait1.jpg" alt="Isaac Newton">
+          </div>
+        </div>
+      </div>  
+      
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <q class="card-text"><i>To myself I am only a child playing on the beach, while vast oceans of truth lie undiscovered before me.</i></q>
             </div>
-          </nav>
-
-
-        <div id="main">
-            <div class="history">
-                <h2>A Brief History</h2>
-                
-                <p>
-                    Lorem Ipsum is simply dummy test text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </div>
-
+          </div>
         </div>
 
-        <footer>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <q class="card-text"><i>I keep the subject of my inquiry constantly before me, and wait till the first dawning opens gradually, by little and little, into a full and clear light.</i></q>
+            </div>
+          </div>
+        </div>
 
-        </footer>
-    </body>
+        <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <q class="card-text"><i>If I have seen further than others, it is by standing upon the shoulders of giants.</i></q>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--</div>-->
+
+    <img class="w-100 mt-sm-4 mt-md-4" src="assets/isaac-newton-quote-discovery.jpg" alt="isaac newton portrait with quote overlay">
+
+    <!--<div class="container">-->
+      <div class="jumbotron history">
+        <h2 class="display-4"><u>The Discovery of Gravity</u></h2>
+        <div class="row mt-sm-4 mt-md-0">
+          <div class="col-sm-12 col-md-4">
+            <img class="w-100" src="assets/apple-falling-on-isaac-newtons-head.jpg" alt="Isaac Newton">
+          </div>
+          <div class="col-sm-12 col-md-8">
+            <p class="lead">Isaac Newton: Early Life and Education</p>
+            <p>
+              Legend has it that a young Isaac Newton was sitting under an apple tree when he was bonked on the head by a falling piece of fruit, a 17th-century “aha moment” that prompted him to suddenly come up with his law of gravity. In reality, things didn’t go down quite like that. Newton, the son of a farmer, was born in 1642 near Grantham, England, and entered Cambridge University in 1661. Four years later, following an outbreak of the bubonic plague, the school temporarily closed, forcing Newton to move back to his childhood home, Woolsthorpe Manor. It was during this period at Woolsthorpe (Newton returned to Cambridge in 1667) that he was in the orchard there and witnessed an apple drop from a tree. There’s no evidence to suggest the fruit actually landed on his head, but Newton’s observation caused him to ponder why apples always fall straight to the ground (rather than sideways or upward) and helped inspired him to eventually develop his law of universal gravitation. In 1687, Newton first published this principle, which states that every body in the universe is attracted to every other body with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them, in his landmark work the “Principia,” which also features his three laws of motion.
+            </p>
+            <p>
+In 1726, Newton shared the apple anecdote with William Stukeley, who included it in a biography, “Memoirs of Sir Isaac Newton’s Life,” published in 1752. According to Stukeley, “After dinner, the weather being warm, we went into the garden, & drank thea under the shade of some apple trees… he told me, he was just in the same situation, as when formerly, the notion of gravitation came into his mind…. occasion’d by the fall of an apple, as he sat in a contemplative mood.”
+            </p>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <footer>
+
+    </footer>
+  </body>
 </html>
