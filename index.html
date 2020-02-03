@@ -9,32 +9,30 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </head>
 
-  <body>
+  <body class="bg-info">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Issac Newton</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse sticky-top navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#history">A Brief History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gravity">Gravity</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container">
-      <nav class="navbar container sticky-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Issac Newton</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse sticky-top navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav nav-pills">
-            <li class="nav-item active">
-              <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">A Brief History</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gravity</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
-  
-      <div class="jumbotron history">
+      <div id="history" class="jumbotron">
         <h2 class="display-4"><u>A Brief History</u></h2>
         <div class="row mt-sm-4 mt-md-0">
           <div class="col-sm-12 col-md-8">
@@ -53,7 +51,7 @@ Newton studied a classical curriculum at Cambridge, but he became fascinated by 
       
 
       <div class="row">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mt-sm-2">
           <div class="card">
             <div class="card-body text-center">
               <q class="card-text"><i>To myself I am only a child playing on the beach, while vast oceans of truth lie undiscovered before me.</i></q>
@@ -61,7 +59,7 @@ Newton studied a classical curriculum at Cambridge, but he became fascinated by 
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mt-sm-2">
           <div class="card">
             <div class="card-body text-center">
               <q class="card-text"><i>I keep the subject of my inquiry constantly before me, and wait till the first dawning opens gradually, by little and little, into a full and clear light.</i></q>
@@ -69,7 +67,7 @@ Newton studied a classical curriculum at Cambridge, but he became fascinated by 
           </div>
         </div>
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 mt-sm-2">
           <div class="card">
             <div class="card-body text-center">
               <q class="card-text"><i>If I have seen further than others, it is by standing upon the shoulders of giants.</i></q>
@@ -77,12 +75,10 @@ Newton studied a classical curriculum at Cambridge, but he became fascinated by 
           </div>
         </div>
       </div>
-    <!--</div>-->
 
-    <img class="w-100 mt-sm-4 mt-md-4" src="assets/isaac-newton-quote-discovery.jpg" alt="isaac newton portrait with quote overlay">
+    <img class="w-100 mt-sm-4 mt-md-4 mb-3 rounded" src="assets/isaac-newton-quote-discovery.jpg" alt="isaac newton portrait with quote overlay">
 
-    <!--<div class="container">-->
-      <div class="jumbotron history">
+      <div id="gravity" class="jumbotron">
         <h2 class="display-4"><u>The Discovery of Gravity</u></h2>
         <div class="row mt-sm-4 mt-md-0">
           <div class="col-sm-12 col-md-4">
@@ -101,8 +97,32 @@ In 1726, Newton shared the apple anecdote with William Stukeley, who included it
       </div>  
     </div>
 
-    <footer>
+    <footer class="bg-dark">
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <ul class="nav pt-md-4">
+              <li class="nav-item w-100">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item w-100">
+                <a class="nav-link" href="#history">A Brief History</a>
+              </li>
+              <li class="nav-item w-100">
+                <a class="nav-link" href="#gravity">Gravity</a>
+              </li>
+            </ul>
+          </div>
 
+          <div class="align-bottom pt-md-5 pb-md-0 col-md-4 col-sm-12">
+            <p class="text-light pt-md-5 pb-md-0">Copyright © 2020 'Gravity Who?' </p>
+          </div>
+
+          <div class="mt-md-2 mb-md-2 col-md-4 col-sm-12">
+            <img class="w-100" src="assets/Newton-Fun-Facts-Featured-Image.png" alt="caricature style picture of newton holding an apple">
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
